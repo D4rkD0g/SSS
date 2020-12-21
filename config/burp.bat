@@ -1,0 +1,1 @@
+D:\software\java\bin\java.exe --illegal-access=permit -Dfile.encoding=utf-8 -javaagent:D:\software\burp_suite\BurpSuiteLoader_v2020.11.jar -noverify -jar D:\software\burp_suite\burpsuite_pro_v2020.11.jar
