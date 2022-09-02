@@ -9,6 +9,10 @@ import os
 import logging
 
 #/root/tools/ghidra1015/support/analyzeHeadless . 3 -deleteProject -import {} -processor x86:LE:32:default -cspec clangwindows  -postScript cppexp.py
+# 86:LE:32:default clangwindows  
+# 86:LE:64:default clangwindows 
+# MIPS:LE:32:default default
+# MIPS:LE:64:default default
 print("FC:", currentProgram.getFunctionManager().getFunctionCount())
 addressFactory = currentProgram.getAddressFactory()
 adr = addressFactory.getDefaultAddressSpace().getAddress(0x0)
